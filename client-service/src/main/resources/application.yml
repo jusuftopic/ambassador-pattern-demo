@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client-service
+
+server:
+  port: 8080
+
+proxy:
+  base-url: http://ambassador-proxy:8081
